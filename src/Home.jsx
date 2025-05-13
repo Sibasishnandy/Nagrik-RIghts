@@ -14,7 +14,7 @@ export default function Home() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <i className="fas fa-balance-scale"></i> LegalAware India
+            <i className="fas fa-balance-scale"></i> Nagrik RIghts
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@ export default function Home() {
                 <a className="nav-link" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <Link className="nav-link" to="/about">About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Resources</a>
+                <Link className="nav-link" to="/resources">Resources</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/login">Login</Link>
@@ -183,7 +183,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <h5>LegalAware India</h5>
+              <h5>Nagrik RIghts</h5>
               <p>Empowering citizens through legal awareness and education</p>
             </div>
             <div className="col-md-4">
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
           <div className="row mt-3">
             <div className="col-12 text-center">
-              <p className="copyright">&copy; 2025 LegalAware India. All rights reserved.</p>
+              <p className="copyright">&copy; 2025 Nagrik RIghts. All rights reserved.</p>
             </div>
           </div>
         </div>
