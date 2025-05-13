@@ -1,12 +1,62 @@
-# React + Vite
+🇮🇳 Nagrik-Rights: Chatbot for Citizens' Basic Rights
+📌 Project Overview
+Nagrik-Rights is an innovative digital platform designed to democratize legal knowledge and empower Indian citizens by making complex legal information accessible, understandable, and actionable.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Mission
+To bridge the knowledge gap in legal awareness, ensuring every citizen understands their fundamental rights, legal protections, and civic responsibilities.
 
-Currently, two official plugins are available:
+✨ Features
+1. Comprehensive Legal Coverage
+Fundamental Rights
+Labour Laws
+Consumer Protection
+Cyber Laws
+Women and Child Rights
+Right to Information (RTI)
+Police and FIR Procedures
+2. Key Capabilities
+Simple, conversational legal guidance
+Multi-language support (Hindi and English)
+Interactive, user-friendly interface
+Contextual legal information
+Easy navigation through legal categories
+🛠 Technology Stack
+Frontend
+HTML5
+CSS3 (Bootstrap)
+React.js
+Responsive Design
+Potential Backend Options
+Node.js/Express
+Python Flask
+MongoDB
+Dialogflow
+🚀 Installation
+Prerequisites
+Modern web browser
+Node.js (v14+ recommended)
+Git
+🔍 Usage Guidelines
+Select a legal category
+Ask your question in simple language
+Receive clear, concise legal information
+Use suggested quick links for common queries
+🌐 Multilingual Support
+English
+Hindi
+Plan to expand to more Indian languages
+⚖️ Legal Disclaimer
+Nagrik-Rights provides general legal information and does not constitute professional legal advice. Always consult a qualified legal professional for specific legal concerns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📋 Roadmap
+ Expand legal knowledge base
+ Add more regional language support
+ Create user accounts for personalized experience
+🛡️ Privacy & Security
+Personal data storage
+Secure
+🙏 Acknowledgements
+Indian Constitution
+Open-source community
+Legal experts who contributed content
+Made with ❤️ for India's Legal Empowerment
