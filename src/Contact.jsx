@@ -100,9 +100,9 @@ export default function Contact() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title"><i className="fas fa-map-marker-alt"></i> Reach Us</h5>
-                <p><strong>Email:</strong> legalawareindia@example.com</p>
-                <p><strong>Phone:</strong> +91-9876543210</p>
-                <p><strong>Address:</strong> 123 Legal Lane, Delhi, India</p>
+                <p><strong>Email:</strong> nagrikrights@gmail.com</p>
+                <p><strong>Phone:</strong> +91-6289440897</p>
+                <p><strong>Address:</strong> Serampore , West Bengal </p>
 
                 <h6 className="mt-4">Follow us on</h6>
                 <div className="social-icons">
