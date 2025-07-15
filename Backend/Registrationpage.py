@@ -27,8 +27,8 @@ def login():
   existing_user = cur.fetchone()
 
     # If count is greater than 0, user already exists
-  if existing_user[0] > 0:  # existing_user[0] contains the count
-      return jsonify({'message': 'User already exists'}), 409  # 409 Conflict
+  if existing_user[0] > 0:
+      return jsonify({'message': 'User already exists'}), 409  
   else:
       cur.execute('INSERT INTO USERS VALUES(%s,%s)',(username,password))
       mysql.connection.commit()
