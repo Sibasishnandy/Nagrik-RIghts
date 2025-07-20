@@ -17,7 +17,7 @@ CORS(app)  # Allow all origins; for production, restrict to frontend domain
 RULE_KEYWORDS = [
     'law', 'rule', 'section', 'act', 'article', 'clause',
     'legal', 'rights', 'penalty', 'regulation', 'constitution',
-    'fundamental', 'arrest', 'fir', 'justice', 'remedy', 'court'
+    'fundamental', 'arrest', 'fir', 'justice', 'remedy', 'court','womens right','india','labour law','labour act'
 ]
 
 def is_rule_related(prompt):
