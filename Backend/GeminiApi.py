@@ -3,8 +3,7 @@ from flask_cors import CORS
 import google.generativeai as genai
 import os
 
-# Set your Gemini API key
-GOOGLE_API_KEY = "AIzaSyA3WYav-QMhDyA35rTQdFpJC3bLgnGRy_g"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the Gemini model
@@ -44,4 +43,5 @@ def ask_gemini():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
