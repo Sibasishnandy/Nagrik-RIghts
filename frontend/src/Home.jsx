@@ -35,7 +35,7 @@ export default function Home() {
     setIsTyping(true);
 
     try {
-      const res = await fetch('http://nagrik-rights-basic1.onrender.com/ask_gemini', {
+      const res = await fetch('https://nagrik-rights-basic1.onrender.com/ask_gemini', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
